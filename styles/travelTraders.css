@@ -1,0 +1,381 @@
+/* Shared style */
+* {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    margin: 52px 135px 0;
+}
+
+.pink-color {
+    color: #FF5400;
+}
+
+/* navbar-1st-container */
+.navbar-1st-container {
+    display: flex;
+    gap: 16px;
+}
+
+.navbar-1st-container-img {
+    width: 48px;
+    height: 56.008px;
+    padding-top: 20px;
+}
+
+.navbar-title {
+    padding-right: 16px;
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.navbar>ul {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    gap: 44px;
+    padding-left: 700px;
+    /* padding-top: 0; */
+    bottom: 600px;
+    /* left: 400px;  */
+    list-style: none;
+    /* padding-bottom: 60px; */
+}
+
+nav>li {
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+/* main section "explore your travel"*/
+
+.section-1st {
+    margin: 20px 135px 0px;
+}
+
+.section-1st-container {
+    /* display: grid; */
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/container.png');
+    width: 1190px;
+    height: 500px;
+}
+
+.section-1st-container .section-1st-container-text {
+    text-align: center;
+    /* padding-top: 50px; */
+    color: #FFF;
+}
+
+.section-1st-container .section-1st-container-text>h1 {
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 106px;
+}
+
+.section-1st-container .section-1st-container-text>p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 247px 0;
+}
+
+
+/* form */
+.where,
+.when,
+.select-type {
+    width: 174px;
+    height: 52px;
+    border-style: none;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.find {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border-style: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    display: inline-flex;
+    padding: 16px;
+    margin-top: 48px;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+
+}
+
+/* second section */
+
+.section-2nd {
+    margin: 100px 135px 0px;
+}
+
+.section-2nd-container {
+    display: flex;
+    gap: 53px;
+    align-items: center;
+}
+
+.section-2nd-title {
+    padding-bottom: 50px;
+}
+
+.black-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.paragraph {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#read {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 22px;
+}
+
+.section-2nd-img {
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+/* section-3rd */
+.section-3rd {
+    margin: 100px 135px 0px;
+}
+
+/* text */
+#destiny {
+    text-align: center;
+}
+#destiny-para{
+    text-align: center;
+    width: 643px;
+    padding-left: 298px;
+}
+
+.section-3rd-img-1st-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    gap: 24px;
+}
+
+.section-3rd-img-1st-container>img {
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.section-3rd-img-1st-container>div {
+    position: relative;
+    text-align: center;
+}
+
+/* 2nd-img-container */
+.section-3rd-img-2nd-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    gap: 24px;
+}
+
+.section-3rd-img-2nd-container>img {
+    border-radius: 16px;
+}
+
+.section-3rd-img-2nd-container>div {
+    position: relative;
+    text-align: center;
+}
+
+/* centered text in image*/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.white-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    header {
+        margin: 20px 30px 0;
+    }
+
+    .navbar-1st-container {
+        /* flex-direction: column; */
+        align-items: center;
+    }
+
+    .navbar-title {
+        /* padding-top: 10px; */
+        font-size: 24px;
+    }
+
+    .navbar-1st-container-img {
+        width: 28.724px;
+        height: 33.516px;
+        padding-top: 0px;
+    }
+
+    .navbar>ul {
+        display: none;
+        position: absolute;
+        top: 60px;
+        /* Adjust as needed */
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: #fff;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+    }
+
+    .navbar>ul.active {
+        display: flex;
+    }
+
+    .navbar>ul li {
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        color: #424247;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .section-1st {
+        margin: 20px 30px 0;
+    }
+
+    .section-1st-container {
+        width: 100%;
+        background-position: center;
+        /* height: auto; */
+        height: 483px;
+    }
+
+    .section-1st-container .section-1st-container-text {
+        /* padding-top: 32px; */
+    }
+
+    .section-1st-container .section-1st-container-text>h1 {
+        font-size: 22px;
+        padding-top: 32px;
+    }
+
+    .section-1st-container .section-1st-container-text>p {
+        font-size: 14px;
+        padding: 2px 16px 0;
+    }
+
+    .where,
+    .when,
+    .select-type {
+        width: 100%;
+    }
+
+    form {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .find {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    /* second section */
+
+    .section-2nd {
+        margin: 20px 30px 0;
+    }
+
+    .black-title {
+        font-size: 20px;
+    }
+
+    .section-2nd-container {
+        flex-direction: column;
+        gap: 0px;
+
+    }
+
+    .paragraph {
+        font-size: 14px;
+    }
+
+    #read {
+        width: 174px;
+        height: 52px;
+        font-size: 20px;
+        margin-top: 24px;
+    }
+
+    .section-2nd-img {
+        width: 335px;
+        height: 342px;
+        /* padding-top: 34px; */
+        /* margin-top: 30px; */
+    }
+
+    /* section-3rd */
+    .section-3rd {
+        margin: 20px 30px 0;
+    }
+    #destiny{
+        font-size: 20px;
+    }
+    #destiny-para {
+        padding-left: 0px;
+        font-size: 14px;
+        width: 298px;
+    }
+
+    .section-3rd-img-1st-container, .section-3rd-img-2nd-container {
+        flex-direction: column;
+    }
+
+    .img{
+        align-items: center;
+        width: 303px;
+        height: 176px;
+    }
+}
