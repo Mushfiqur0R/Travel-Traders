@@ -111,6 +111,7 @@ nav>li {
     font-size: 16px;
     font-weight: 700;
 }
+
 /* .find-icon{
     top: 15px;
 } */
@@ -302,8 +303,59 @@ form {
     margin-top: 24px;
 }
 
+/* newslater section */
 
-/* responsive */
+.newslater-section {
+    display: flex;
+    gap: 24px;
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    margin-top: 100px;
+    border: 1px solid #FF5400;
+
+}
+
+.form-section {
+    margin-left: 40px;
+    margin-top: 24px;
+}
+
+#news {
+    margin-left: 40px;
+}
+
+.enter,
+#btn {
+    margin-top: 16px;
+    width: 393px;
+    height: 52px;
+}
+
+.enter {
+    border-style: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.newslater-img {
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+    margin-left: 135px;
+}
+
+/* responsive ......................*/
 @media screen and (max-width: 576px) {
     header {
         margin: 20px 30px 0;
@@ -471,18 +523,76 @@ form {
         width: 335px;
         height: 289px;
     }
-    #small-para{
+
+    #small-para {
         width: 271px;
-        
+
     }
+
     .small-title {
         padding-top: 0px;
     }
+
     .cart-2nd {
         width: 335px;
         height: 289px;
     }
+
     #cart-3rd {
         margin-left: 0px;
+    }
+
+    /* newslater-section */
+
+    .newslater-section {
+        flex-direction: column;
+        /* margin: 20px 30px 0; */
+        width: 342px;
+
+    }
+
+    .form-section {
+        margin-left: 20px;
+        margin-top: 24px;
+    }
+
+    #news {
+        margin-left: 20px;
+    }
+
+    .enter,
+    #btn {
+        margin-top: 16px;
+        width: 288px;
+        height: 52px;
+    }
+
+    .enter {
+        border-style: none;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        color: rgba(19, 19, 24, 0.30);
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    #btn {
+        color: #FFF;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .newslater-img {
+        width: 335px;
+        height: 300px;
+        border-radius: 16px;
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+
+    #news {
+        padding-left: 0px;
+        width: 270px;
     }
 }
